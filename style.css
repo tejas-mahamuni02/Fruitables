@@ -1,0 +1,112 @@
+.div1 {
+  background-color: #81C408;
+  height: 10vh;
+  color: white;
+  border-radius: 50px 20px 50px 20px;
+}
+
+.div1 a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.breadcrumb-item::before {
+  color: white !important;
+}
+
+.breadcrumb-item>a:hover {
+  color: orange;
+}
+
+.navbar-nav li a {
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+input[type=search] {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  /* background-image: url('IMAGE/download.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px; */
+}
+
+input[type=search]:hover {
+  background-color: orange;
+}
+
+input[type=search]::placeholder {
+  color: #81C408;
+  height: 20px;
+  width: 20px;
+}
+
+.btn1 {
+  background-color: #81C408;
+}
+
+.btn1:hover {
+  background-color: orange;
+}
+
+.nav-pills li button {
+  width: 130px;
+  margin-left: 10px;
+}
+
+.nav-pills li button:focus {
+  background-color: orange !important;
+  color: white !important;
+}
+
+/* .card-shadow:hover {
+  
+  box-shadow: 0px -10px 5px -5px grey,
+    10px 0px 5px -5px grey,
+    0px 10px 5px -5px grey,
+    -10px 0px 5px -7px grey;
+} */
+.slider1 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 2s;
+}
+
+.slider1 .card:hover {
+  box-shadow: 9px 10px 12px lightgray;
+}
+
+.slider1 .card {
+  overflow: hidden;
+  border: 1px solid #81C408;
+}
+
+.text-dark:hover {
+  background-color: green !important;
+
+}
+
+.list-unstyled li,
+a:link,
+a:visited {
+  color: lightgrey;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.list-unstyled a:hover {
+  color: orange;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.backimg {
+  background-image: url('images/cart-page-header-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
